@@ -15,7 +15,7 @@ public:
 	void Dobavit(int);
 	void Ubrat();
 	void Na_Ekran();
-	void Kopying();
+	void Kopying(Queue*);
 	void Merge(Queue*, Queue*);
 
 	friend class A;

@@ -139,16 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Anna.cpp" />
-    <ClCompile Include="Bella.cpp" />
-    <ClCompile Include="Cris.cpp" />
+    <ClCompile Include="public_a.cpp" />
+    <ClCompile Include="private_b.cpp" />
+    <ClCompile Include="protected_c.cpp" />
     <ClCompile Include="mother_queue.cpp" />
     <ClCompile Include="TP_LAB_1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Anna.h" />
-    <ClInclude Include="Bella.h" />
-    <ClInclude Include="Cris.h" />
+    <ClInclude Include="public_a.h" />
+    <ClInclude Include="private_b.h" />
+    <ClInclude Include="protected_c.h" />
     <ClInclude Include="mother_queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

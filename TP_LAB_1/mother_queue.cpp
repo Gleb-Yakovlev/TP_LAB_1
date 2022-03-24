@@ -44,19 +44,19 @@ void Queue::Ubrat() {
 	return;
 }
 
-void Queue::Kopying() {
+void Queue::Kopying(Queue* q) {
 	if (size == 0) { cout << "The queue is empty, there is nothing to copy"; return; }
 	Qelement* old_element = first_element;
-	int new_size = size;
-	class Queue* New_Queue = new Queue;
 
+	int new_size = q->size;
 	for (int i = 1; i <= new_size; i++) {
-		New_Queue->Dobavit(old_element->data);
+		q->Ubrat();
+	}
+	for (int i = 1; i <= size; i++) {
+		q->Dobavit(old_element->data);
 		old_element = old_element->next_element;
 	}
-	New_Queue->Na_Ekran();
 	delete old_element;
-	delete New_Queue;
 	return;
 }
 
@@ -75,9 +75,8 @@ void Queue::Merge(Queue* q1, Queue* q2) {
 }
 
 void Queue::Na_Ekran() {
-	if (size == 0) { cout << "We can't output an empty queue" << endl; return; }
+	if (size == 0) { cout << "Empty queue" << endl; return; }
 	Qelement* q = first_element;
-	cout << "Writing" << endl;
 
 	for (int i = 1; i <= size; i++) {
 		cout << q->data << endl;

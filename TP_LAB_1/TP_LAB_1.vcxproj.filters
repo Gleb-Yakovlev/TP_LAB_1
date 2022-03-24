@@ -21,13 +21,13 @@
     <ClCompile Include="mother_queue.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Anna.cpp">
+    <ClCompile Include="public_a.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Bella.cpp">
+    <ClCompile Include="private_b.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Cris.cpp">
+    <ClCompile Include="protected_c.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,13 +35,13 @@
     <ClInclude Include="mother_queue.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Anna.h">
+    <ClInclude Include="public_a.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Bella.h">
+    <ClInclude Include="private_b.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Cris.h">
+    <ClInclude Include="protected_c.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
